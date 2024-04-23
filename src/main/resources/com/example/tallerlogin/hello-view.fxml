@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="329.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fill="#5a7894" layoutX="60.0" layoutY="61.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="14.0" layoutY="37.0" prefHeight="48.0" prefWidth="133.0" text="Intelli">
+         <font>
+            <Font name="JetBrains Mono Regular" size="20.0" />
+         </font>
+      </Label>
+      <Circle fill="#5a7894" layoutX="268.0" layoutY="61.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="247.0" layoutY="47.0" text="Cars">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutY="150.0" prefHeight="13.0" prefWidth="329.0" />
+      <HBox alignment="CENTER_LEFT" layoutX="4.0" layoutY="163.0" prefHeight="34.0" prefWidth="318.0">
+         <children>
+            <Label prefHeight="25.0" prefWidth="90.0" text="Usuario:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField prefHeight="25.0" prefWidth="180.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="4.0" layoutY="220.0" prefHeight="25.0" prefWidth="318.0">
+         <children>
+            <Label prefHeight="25.0" prefWidth="90.0" text="Contraseña:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField prefHeight="25.0" prefWidth="180.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="12.0" layoutY="291.0" prefHeight="59.0" prefWidth="302.0" spacing="30.0">
+         <children>
+            <Button mnemonicParsing="false" prefWidth="95.0" style="-fx-background-color: #49c92c;" text="Iniciar sesión" />
+            <Button mnemonicParsing="false" style="-fx-background-color: #d43017;" text="Cancelar" />
+            <Button mnemonicParsing="false" text="Registrarse" />
+         </children>
+      </HBox>
+      <HBox layoutX="6.0" layoutY="263.0" prefHeight="34.0" prefWidth="300.0">
+         <children>
+            <Label text="He olvidado mi contraseña" textFill="#2e8dcd" underline="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
