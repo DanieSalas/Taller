@@ -17,7 +17,7 @@
             <Font name="Comic Sans MS" size="20.0" />
          </font>
       </Label>
-      <Separator layoutX="12.0" layoutY="130.0" prefHeight="13.0" prefWidth="329.0" />
+      <Separator layoutX="5.0" layoutY="131.0" prefHeight="13.0" prefWidth="312.0" />
       <HBox alignment="CENTER_LEFT" layoutX="4.0" layoutY="163.0" prefHeight="34.0" prefWidth="318.0">
          <children>
             <Label prefHeight="25.0" prefWidth="90.0" text="Usuario:">
@@ -25,24 +25,23 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Label>
-            <TextField prefHeight="25.0" prefWidth="180.0" />
+            <TextField prefHeight="25.0" prefWidth="180.0" fx:id="usuarioText"/>
          </children>
       </HBox>
       <HBox layoutX="4.0" layoutY="220.0" prefHeight="25.0" prefWidth="318.0">
          <children>
             <Label prefHeight="25.0" prefWidth="90.0" text="Contraseña:">
                <font>
-                  <Font name="System Bold" size="14.0" />
+                  <Font name="System Bold" size="14.0" fx:id="contraseñaText"/>
                </font>
             </Label>
             <TextField prefHeight="25.0" prefWidth="180.0" />
          </children>
       </HBox>
-      <HBox alignment="CENTER_LEFT" layoutX="12.0" layoutY="291.0" prefHeight="59.0" prefWidth="302.0" spacing="30.0">
+      <HBox alignment="CENTER" layoutX="12.0" layoutY="291.0" prefHeight="59.0" prefWidth="302.0" spacing="145.0">
          <children>
-            <Button mnemonicParsing="false" prefWidth="95.0" style="-fx-background-color: #49c92c;" text="Iniciar sesión" />
-            <Button mnemonicParsing="false" style="-fx-background-color: #d43017;" text="Cancelar" />
-            <Button mnemonicParsing="false" text="Registrarse" />
+            <Button mnemonicParsing="false" prefWidth="95.0" style="-fx-background-color: #49c92c;" text="Iniciar sesión" fx:id="butSesion"/>
+            <Button contentDisplay="RIGHT" mnemonicParsing="false" style="-fx-background-color: #d43017;" text="Cancelar" fx:id="butCancelar"/>
          </children>
       </HBox>
       <HBox layoutX="6.0" layoutY="263.0" prefHeight="34.0" prefWidth="300.0">
